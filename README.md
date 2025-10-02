@@ -1,16 +1,11 @@
-# STARTER-jpa01
-
-* TODO: Change the title of this README (above)
-  in the text `# STARTER-jpa01` above
-  to match the name of your repo, i. e., `jpa01-yourgithubid`, then delete
-  this TODO item.
+# jpa01-n-ornelas
 
 * TODO: Correct the "deployed at" link to app on Dokku (below)
-  then delete this TODO.  Replace it with 
+  then delete this TODO.  Replace it with
   a link to your running app on Dokku, e.g.
   https://jpa01-cgaucho.dokku-14.cs.ucsb.edu
 
-Deployed at: https://jpa01-replace-me.dokku-xx.cs.ucsb.edu
+Deployed at: https://jpa01-n-ornelas.dokku-13.cs.ucsb.edu
 
 
 # About this repo
@@ -39,7 +34,7 @@ jpa01 for f25 for CMPSC 156.
 The code in this repo is based in part on the tutorial here:
 <https://spring.io/guides/gs/spring-boot/>, and the code here in the
 `complete` directory of this repo
-<https://github.com/spring-guides/gs-spring-boot.git>.  
+<https://github.com/spring-guides/gs-spring-boot.git>.
 
 That code has been
 modified for use in UCSB CMPSC 156 as described
@@ -50,15 +45,15 @@ below.
 * Java 21 support
   * Converting `pom.xml` to use Java 21
 * JUnit 5
-  * Converting test code to use JUnit 5 instead of JUnit 4  
+  * Converting test code to use JUnit 5 instead of JUnit 4
 * Dokku Support
   * Ensuring that the `PORT` environment variable is
-    used to define the port on which Spring Boot starts the web server 
+    used to define the port on which Spring Boot starts the web server
 * Testing and CI
   * Adding JUnit tests
-  * Adding jacoco as a plugin to measure test 
+  * Adding jacoco as a plugin to measure test
     case coverage
   * Adding pitest for mutation test coverage.
- 
+
 
 
